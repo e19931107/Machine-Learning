@@ -12,7 +12,6 @@ x_1 = pd.DataFrame(db.data, columns = db.feature_names)
 x_2 = x_1.iloc[:,0:4]
 y = pd.DataFrame(db.target, columns = ["Predicted Quantitatjve Measure"])
 
-
 #建模
 lm_1 = LinearRegression() 
 lm_1.fit(x_1, y)
@@ -26,7 +25,6 @@ plt.xlabel("Quantitative Measure")
 plt.ylabel("Predicted Quantitive Measure")
 plt.title("Quantitative Measure vs Predicted Quantitative Measure")
 plt.show()
-
 
 pre_tar2 = lm_2.predict(x_2)
 plt.scatter(y, pre_tar2)
