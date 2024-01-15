@@ -4,8 +4,11 @@
 3. 算出MES和R2
 4. 將資料分割成3:1和4:1的訓練資料集和測試資料集，算出MES和R2
 
-MSE, RMSE, MAE, MPE定義
+# Result
+![Figure_1](https://github.com/e19931107/Scikit_Learn-Diabetes/assets/50692450/4f2837c2-b84b-4a26-b386-b3be991fbe75)
+![Figure_2](https://github.com/e19931107/Scikit_Learn-Diabetes/assets/50692450/6d742c1b-76c4-4de4-9f58-aa2818cdfd83)
 
+# MSE, RMSE, MAE, MPE定義
 ## MSE（Mean Square Error）
 ![Alt text](image.png)
 MSE主要以平方來避免誤差正負的互相抵銷，但也因為平方的特性，所以當單一bias大的時候會有懲罰作用，也就是說MSE對於極值（outliers)會相對敏感。
